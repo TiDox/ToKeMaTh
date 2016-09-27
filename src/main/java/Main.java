@@ -25,7 +25,7 @@ public class Main {
 
     // Umrechnung von Ausgangswert in Zwischenwert
     private static void binaerZuDezimal(char[] ausgangswert) {}
-    private static char[] oktalZuDezimal(char[] ausgangswert) {
+    private static char[] oktalZuDezimal(char[] ausgangswert) throws Exception {
         for (char ziffer : ausgangswert) {
             if (ziffer != '0' && ziffer != '1'&& ziffer != '2'
                     && ziffer != '3'&& ziffer != '4'&& ziffer != '5'
